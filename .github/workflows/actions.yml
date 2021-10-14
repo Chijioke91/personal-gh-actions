@@ -11,5 +11,5 @@ jobs:
         id: hello
         with:
           who-to-greet: 'James'
-        run: |
+      - run: |
           echo "Time: ${{ steps.outputs.hello.time }}"
